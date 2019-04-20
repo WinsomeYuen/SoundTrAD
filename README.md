@@ -1,4 +1,4 @@
-Files Submitted:
+## Files Submitted:
 - source code folder: containing all the python files for the application
 - build and dist folder: for the executable file. Below explains programs needed to run it and where to find the application itself in the folders.
 
