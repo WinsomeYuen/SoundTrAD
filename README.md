@@ -1,7 +1,7 @@
 # SoundTrAD
 A desktop application built using PyQt5 aimed to aid novice designers in building auditory displays. This is an open source project that encourages designers/developers to download and further contribute to the development of the application to help the wider community by contributing the ongoing development in research on auditory displays, which has been influenced by the people at the International Community for Auditory Displays. 
 
-The tools have been developed using Doon MacDonald's research: https://smartech.gatech.edu/handle/1853/60074 
+The tools have been developed using Doon MacDonald's research: https://smartech.gatech.edu/handle/1853/60074 \
 With the aid of Tony Stockman my supervisor and discussions with Doon, the application that I have developed in this short period of time have achieved the core goals I set at the start of this journey. 
 
 ## Files Submitted
@@ -17,7 +17,9 @@ https://www.python.org/downloads/release/python-350/
 ### MySQL
 - MySQL Connector Python 8.0 for Python 3.5 = Simplifies installation by installing everything at once
 - MySQL Server 8.0
-- MySQL Workbench 8.0 CE = used to view database and simplify user setup You will need to create a new user with all access granted this can be done in the workbench by going to `Server > Users and Privileges > Add account`. Once you have filled in the login detail, go to the Administrative Roles tab and check DBA to check all at once and then click apply to save.
+- MySQL Workbench 8.0 CE = used to view database and simplify user setup You will need to create a new user with all access granted this can be done in the workbench by going to `Server > Users and Privileges > Add account`. Once you have filled in the login detail, go to the Administrative Roles tab and check DBA to check all at once and then click apply to save.\
+
+https://dev.mysql.com/downloads/
 
 The application can be located in the folder:\
 `SounTrAD > dist > soundtrad`\
