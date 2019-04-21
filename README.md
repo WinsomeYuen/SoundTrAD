@@ -4,12 +4,13 @@ A desktop application built using PyQt5 aimed to aid novice designers in buildin
 The tools have been developed using Doon MacDonald's research: https://smartech.gatech.edu/handle/1853/60074 \
 With the aid of Tony Stockman my supervisor and discussions with Doon, the application that I have developed in this short period of time have achieved the core goals I set at the start of this journey. 
 
-![Screenshot of Application](https://live.staticflickr.com/65535/33782359508_647401affb_b.jpg)
+![Screenshot of Application](https://live.staticflickr.com/65535/40695945323_9b0389515a_b.jpg)
 
 ## Files Submitted
 - Source code folder: containing all the python files I wrote for the application.
 - Build and dist folder: for the executable file. Below explains programs needed to run it and where to find the application itself in the folders.
 - Test notes folder: contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
+- Images folder: screenshots of my application and wireframes. 
 - test.cv: a test file that could be used for the application as an example.
 
 ## Programs needed to run application
