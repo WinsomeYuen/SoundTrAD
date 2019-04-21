@@ -7,6 +7,7 @@ With the aid of Tony Stockman my supervisor and discussions with Doon, the appli
 ## Files Submitted
 - Source code folder: containing all the python files I wrote for the application
 - Build and dist folder: for the executable file. Below explains programs needed to run it and where to find the application itself in the folders.
+- Test notes folder: contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
 
 ## Programs needed to run application
 ### Python 
