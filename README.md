@@ -74,4 +74,4 @@ https://www.iksonmusic.com/
 ## Summary
 This has been a very interesting project to work on which combines my programming skills, with my new interest in interaction/ux design. It has made me discover a new world of interacting with technology. The project will now be passed back to Doon to look further into developing this research into something more concrete, so hopefully this has helped aid her in the next steps. 
 
-![Poster presented on Demo Day](https://live.staticflickr.com/7882/46765167314_d08585cb8e_o.png)
+![Poster presented on Demo Day](https://live.staticflickr.com/7882/46765167314_59aa2c5119_h.jpg)
