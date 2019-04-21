@@ -1,8 +1,12 @@
+![SoundTrAd Logo](https://live.staticflickr.com/65535/33782356588_9c9c6c1be5_m.jpg)
+
 # SoundTrAD
 A desktop application built using PyQt5 aimed to aid novice designers in building auditory displays. This is an open source project that encourages designers/developers to download and further contribute to the development of the application to help the wider community by contributing the ongoing development in research on auditory displays, which has been influenced by the people at the International Community for Auditory Displays. 
 
 The tools have been developed using Doon MacDonald's research: https://smartech.gatech.edu/handle/1853/60074 \
 With the aid of Tony Stockman my supervisor and discussions with Doon, the application that I have developed in this short period of time have achieved the core goals I set at the start of this journey. 
+
+![Screenshot of Application](https://live.staticflickr.com/65535/33782359508_647401affb_b.jpg)
 
 ## Files Submitted
 - Source code folder: containing all the python files I wrote for the application
@@ -63,6 +67,11 @@ pip install mysql-python
 I use Qt creator to view the code, but it is obviously optional. Here is the link to download the opensource version:\
 https://www.qt.io/download
 
+## Sound Files
+The repository has sound files included in the folder "sound": \
+`SounTrAD > dist > soundtrad > sound` \
+All the sound files are either from FreeSound, which are all free to download and use or Ikson:\
+https://www.iksonmusic.com/
 
 ## Summary
 This has been a very interesting project to work on which combines my programming skills, with my new interest in interaction/ux design. It has made me discover a new world of interacting with technology. The project will now be passed back to Doon to look further into developing this research into something more concrete, so hopefully this has helped aid her in the next steps. 
