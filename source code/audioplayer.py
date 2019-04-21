@@ -1,3 +1,8 @@
+"""For the audio player I used a piece of code from SubhenduMalakarGitHub
+project music player and edited to suit my needs:
+https://github.com/deathholes/music_player/blob/master/music_player.py
+"""
+
 import sys
 from os.path import expanduser
 from PyQt5.QtWidgets import *

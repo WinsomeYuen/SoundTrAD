@@ -1,3 +1,10 @@
+"""
+To save the Table Widget data into a CSV file the code used was from a
+YouTube tutorial called “PyQt5 Lesson 19 Write csv Spreadsheet part 4”
+by Mark Winfield:
+https://gist.github.com/anonymous/50d1eb86c957d35df2967d6be8479d22
+"""
+
 import os, sys, csv, time, wave, contextlib
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import *
