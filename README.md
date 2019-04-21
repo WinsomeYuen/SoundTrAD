@@ -1,5 +1,3 @@
-![SoundTrAd Logo](https://live.staticflickr.com/65535/33782356588_9c9c6c1be5_m.jpg)
-
 # SoundTrAD
 A desktop application built using PyQt5 aimed to aid novice designers in building auditory displays. This is an open source project that encourages designers/developers to download and further contribute to the development of the application to help the wider community by contributing the ongoing development in research on auditory displays, which has been influenced by the people at the International Community for Auditory Displays. 
 
@@ -75,3 +73,5 @@ https://www.iksonmusic.com/
 
 ## Summary
 This has been a very interesting project to work on which combines my programming skills, with my new interest in interaction/ux design. It has made me discover a new world of interacting with technology. The project will now be passed back to Doon to look further into developing this research into something more concrete, so hopefully this has helped aid her in the next steps. 
+
+![Poster presented on Demo Day](https://live.staticflickr.com/7882/46765167314_d08585cb8e_o.png)
