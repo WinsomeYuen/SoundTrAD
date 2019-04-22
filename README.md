@@ -31,8 +31,8 @@ The application can be located in the folder:\
 It is named soundtrad and should have a logo.
 Ensure you have sound files located locally, I have created a sound folder located in the same folder as the application, for where you can keep your sound files in.
 
-
-The application has been made into an executable file, however just in case I have listed the libraries you may need to pip install:
+### Libraries
+The application has been made into an executable file, however I have listed the libraries you may need to pip/pip3 install:
 - PyQt5 Version 3.5\
 `pip install PyQt5`
 - PyDub\
@@ -42,10 +42,12 @@ The application has been made into an executable file, however just in case I ha
 - MySQLdb\
 `pip install mysqlclient`
 
+## PyQt5
 Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/ \
 Alternatively you could install using brew:\
 `brew install pyqt5`
 
+## MySQLdb
 The MySQLdb download may not work above as I am using a windows OS and had to find
 a different method, so possibly try these alternatives instead:
 ```
@@ -55,6 +57,10 @@ brew install mysql-connector-c  (will need to pip install homebrew first)
 
 pip install mysql-python
 ```
+
+When trying to install MySQLdb on my mac I had problems due to setup tools being out of date so make sure you run this line to check:\
+`pip install --upgrade setuptools`
+
 
 ## Instructions on using application
 1. First login to the MySQL account you have created (or any account you are happy to store location of sound files)
