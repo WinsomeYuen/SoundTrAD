@@ -51,7 +51,7 @@ The application has been made into an executable file, however just in case I ha
 - MySQLdb\
 `pip install mysqlclient`
 
-Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/.\
+Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/ \
 Alternatively you could install using brew:\
 `brew install pyqt5`
 
