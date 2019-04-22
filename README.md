@@ -5,6 +5,7 @@ The tools have been developed using Doon MacDonald's research: https://smartech.
 With the aid of Tony Stockman my supervisor and discussions with Doon, the application that I have developed in this short period of time have achieved the core goals I set at the start of this journey. 
 
 ![Screenshot of Application](https://live.staticflickr.com/65535/40695945323_9b0389515a_b.jpg)
+**Note:**A video demonstration can be watched following the website linked to this repo.
 
 ## Files Submitted
 - Source code folder: containing all the python files I wrote for the application.
@@ -16,15 +17,14 @@ With the aid of Tony Stockman my supervisor and discussions with Doon, the appli
 ## Programs needed to run application
 ### Python 
 Python Version 3.5 - it should work with any Python 3 version or later\
-**Note:** Make sure that it is in *PATH* for windows\
+**Note:** Make sure that it is in *PATH*\
 https://www.python.org/downloads/release/python-350/
 
 ### MySQL
-- MySQL Connector Python 8.0 for Python 3.5 = Simplifies installation by installing everything at once
-- MySQL Server 8.0
-- MySQL Workbench 8.0 CE = used to view database and simplify user setup You will need to create a new user with all access granted this can be done in the workbench by going to `Server > Users and Privileges > Add account`. Once you have filled in the login detail, go to the Administrative Roles tab and check DBA to check all at once and then click apply to save.\
+- MySQL Connector Python 8.0 for Python 3.5 = Simplifies installation by installing everything at once: https://dev.mysql.com/downloads/connector/python/
+- MySQL Server 8.0: https://dev.mysql.com/downloads/mysql/
+- MySQL Workbench 8.0 CE = used to view database and simplify user setup You will need to create a new user with all access granted this can be done in the workbench by going to `Server > Users and Privileges > Add account`. Once you have filled in the login detail, go to the Administrative Roles tab and check DBA to check all at once and then click apply to save: https://dev.mysql.com/downloads/workbench/
 
-https://dev.mysql.com/downloads/
 
 The application can be located in the folder:\
 `SounTrAD > dist > soundtrad`\
@@ -51,7 +51,9 @@ The application has been made into an executable file, however just in case I ha
 - MySQLdb\
 `pip install mysqlclient`
 
-Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/
+Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/.\
+Alternatively you could install using brew:\
+`brew install pyqt5`
 
 The MySQLdb download may not work above as I am using a windows OS and had to find
 a different method, so possibly try these alternatives instead:
