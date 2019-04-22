@@ -427,6 +427,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     # creating main window
     mw = MainWindow()
-    mw.setWindowIcon(QIcon('images/SoundTrad.png'))
+    mw.setWindowIcon(QPixmap('images/SoundTrad.png'))
     mw.show()
     sys.exit(app.exec_())
