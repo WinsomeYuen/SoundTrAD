@@ -9,7 +9,7 @@ With the aid of Tony Stockman my supervisor and discussions with Doon, the appli
 
 ## Files Submitted
 - Source code folder: containing all the python files I wrote for the application.
-- Build and dist folder: for the executable file. Below explains programs needed to run it and where to find the application itself in the folders.
+- Mac and Windows folder: Contains the executable files for the respective OS systems. Below explains programs needed to run it and where to find the application itself in the folders. Windows executable made using pyinstaller and Mac executable made using py2app
 - Test notes folder: contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
 - Images folder: screenshots of my application and wireframes. 
 - test.cv: a test file that could be used for the application as an example.
@@ -32,7 +32,7 @@ It is named soundtrad and should have a logo.
 Ensure you have sound files located locally, I have created a sound folder located in the same folder as the application, for where you can keep your sound files in.
 
 ### Libraries
-The application has been made into an executable file, however I have listed the libraries you may need to pip/pip3 install:
+The application has been made into an executable file, however I have listed the libraries you may need to pip/pip3 install or if you want to run it via the source code folder in terminal instead:
 - PyQt5 Version 3.5\
 `pip install PyQt5`
 - PyDub\
@@ -47,6 +47,7 @@ If you are on MAC Install this globally:\
 
 ## PyQt5 Errors
 Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/ \
+
 Alternatively you could install using brew:\
 `brew install pyqt5`
 
@@ -62,23 +63,15 @@ pip install mysql-python
 ```
 
 When trying to install MySQLdb on my mac I had problems due to setup tools being out of date so make sure you run this line to check:\
-`pip install --upgrade setuptools`\
+`pip install --upgrade setuptools`
 
-You may get an error like this:
+You may get an error like this on a mac:
 ```
 ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/MySQLdb/_mysql.cpython-37m-darwin.so, 2): Library not loaded: libssl.1.0.0.dylib
   Referenced from: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/MySQLdb/_mysql.cpython-37m-darwin.so
   Reason: image not found
 ```
-Type `export DYLD_LIBRARY_PATH=”$DYLD_LIBRARY_PATH:/usr/local/mysql/lib/”` in your terminal and see if problem persists. You can add it to your .profile file to make this persistent so you don’t need to run it every time.
-
-You may get an error like this:
-```
-ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/MySQLdb/_mysql.cpython-37m-darwin.so, 2): Library not loaded: libssl.1.0.0.dylib
-  Referenced from: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/MySQLdb/_mysql.cpython-37m-darwin.so
-  Reason: image not found
-```
-Type `export DYLD_LIBRARY_PATH=”$DYLD_LIBRARY_PATH:/usr/local/mysql/lib/”` in your terminal and see if problem persists. You can add it to your .profile file to make this persistent so you don’t need to run it every time.
+This may mean you may not be able to use the executable. However if running via source code folder type `export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/` in your terminal and see if problem persists. You can add it to your .profile file to make this persistent so you don’t need to run it every time. After type `python3 soundtrad.py` to run like normal.
 
 
 ## Instructions on using application
