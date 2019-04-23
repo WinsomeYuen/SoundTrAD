@@ -49,6 +49,10 @@ The application has been made into an executable file, however I have listed the
 If you are on MAC Install this globally:\
 `brew install mysql`
 
+I use Qt creator to view the code, but it is obviously optional. Here is the link to download the opensource version:\
+https://www.qt.io/download
+
+
 ## PyQt5 Errors
 Downloading PyQt5 has been a bit buggy to download via terminal lately for on windows OS with the recent updates that have rolled out. So, if the above does not work try downloading the exe file from sourceforge: https://sourceforge.net/projects/pyqt/files/PyQt5/ \
 
@@ -87,11 +91,8 @@ The sound file can be chosen by clicking on the button saying **"Upload Sound"**
 **Extra:** If you want to test each sound, you click on the sound file cell once for the sound you want to test and it will be loaded in the audio player on the seperate window.
 3. Click generate timeline and your cuesheet will be transferred to the timeline, where you can listen to the combined sound created from the cuesheet.\
 **Note:** You may need to use the pan button (4th button in the toolbar at the top) on a mac and interact with the timeline space by clicking/dragging it to generate the timeline 
-4. Save the cuesheet by going
+4. Save the cuesheet by clicking on the save cuesheet button or save under the file tab in the toolbar
 
-
-I use Qt creator to view the code, but it is obviously optional. Here is the link to download the opensource version:\
-https://www.qt.io/download
 
 ## Sound Files
 The repository has sound files included in the folder "sound": \
