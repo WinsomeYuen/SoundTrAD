@@ -26,10 +26,13 @@ https://www.python.org/downloads/release/python-350/
 - MySQL Workbench 8.0 CE = used to view database and simplify user setup You will need to create a new user with all access granted this can be done in the workbench by going to `Server > Users and Privileges > Add account`. Once you have filled in the login detail, go to the Administrative Roles tab and check DBA to check all at once and then click apply to save: https://dev.mysql.com/downloads/workbench/
 
 
-The application can be located in the folder:\
-`SounTrAD > dist > soundtrad`\
-It is named soundtrad and should have a logo.
-Ensure you have sound files located locally, I have created a sound folder located in the same folder as the application, for where you can keep your sound files in.
+For **Windows OS** the application can be located in the folder:\
+`Windows > dist > soundtrad`\
+It is named soundtrad and should have a logo. Ensure you have sound files located locally, I have created a sound folder located in the same folder as the application, for where you can keep your sound files in.
+
+For **Mac OS** the application can be located in the folder:\
+`Mac > dist`\
+It is named soundtrad. Ensure you have sound files located locally, I have created a sound folder located in the same folder as the application, for where you can keep your sound files in. Images folder just contains logo's for the application.
 
 ### Libraries
 The application has been made into an executable file, however I have listed the libraries you may need to pip/pip3 install or if you want to run it via the source code folder in terminal instead:
