@@ -85,7 +85,7 @@ This may mean you may not be able to use the executable. However if running via 
  - Sound file path stored in the cell (Not the soud file name!)\
 The sound file can be chosen by clicking on the button saying **"Upload Sound"**, which is next to the respective sound file cell for each row. The Cause and Associated Events determine the sound files suggested to the user.
 **Extra:** If you want to test each sound, you click on the sound file cell once for the sound you want to test and it will be loaded in the audio player on the seperate window.
-3. Click generate timeline and your cuesheet will be transferred to the timeline, where you can listen to the combined sound created from the cuesheet
+3. Click generate timeline and your cuesheet will be transferred to the timeline, where you can listen to the combined sound created from the cuesheet.\
 **Note:** You may need to use the pan button (4th button in the toolbar at the top) on a mac and interact with the timeline space by clicking/dragging it to generate the timeline 
 4. Save the cuesheet by going
 
