@@ -8,11 +8,11 @@ With the aid of Tony Stockman my supervisor and discussions with Doon, the appli
 **Note:** A video demonstration can be watched following the website linked to this repo.
 
 ## Files Submitted
-- Source code folder: containing all the python files I wrote for the application.
-- Mac and Windows folder: Contains the executable files for the respective OS systems. Below explains programs needed to run it and where to find the application itself in the folders. Windows executable made using pyinstaller and Mac executable made using py2app
-- Test notes folder: contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
-- Images folder: screenshots of my application and wireframes. 
-- test.cv: a test file that could be used for the application as an example.
+- **Source code folder:** containing all the python files I wrote for the application.
+- **Mac and Windows folder:** Contains the executable files for the respective OS systems. Below explains programs needed to run it and where to find the application itself in the folders. Windows executable made using pyinstaller and Mac executable made using py2app
+- **Test notes folder:** contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
+- **Images folder:** screenshots of my application and wireframes. 
+- **test.cv:** a test file that could be used for the application as an example.
 
 ## Programs needed to run application
 ### Python 
