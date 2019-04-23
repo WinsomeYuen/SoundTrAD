@@ -9,10 +9,11 @@ With the aid of Tony Stockman my supervisor and discussions with Doon, the appli
 
 ## Files Submitted
 - **Source code folder:** containing all the python files I wrote for the application.
-- **Mac and Windows folder:** Contains the executable files for the respective OS systems. Below explains programs needed to run it and where to find the application itself in the folders. Windows executable made using pyinstaller and Mac executable made using py2app
+- **Mac and Windows folder:** Contains the executable files for the respective OS systems. Below explains programs needed to run it and where to find the application itself in the folders. Windows executable made using pyinstaller and Mac executable made using py2app.
 - **Test notes folder:** contains pdf files of the various testing done for the application. Majority of it are raw notes that have just been edited to add a better layout for easier viewing.
 - **Images folder:** screenshots of my application and wireframes. 
-- **test.cv:** a test file that could be used for the application as an example.
+- **test.cv:** a test file that could be used for the application as an example as reference.
+- **text-mac.csv:** a test file for mac OS.
 
 ## Programs needed to run application
 ### Python 
@@ -85,6 +86,7 @@ This may mean you may not be able to use the executable. However if running via 
 The sound file can be chosen by clicking on the button saying **"Upload Sound"**, which is next to the respective sound file cell for each row. The Cause and Associated Events determine the sound files suggested to the user.
 **Extra:** If you want to test each sound, you click on the sound file cell once for the sound you want to test and it will be loaded in the audio player on the seperate window.
 3. Click generate timeline and your cuesheet will be transferred to the timeline, where you can listen to the combined sound created from the cuesheet
+**Note:** You may need to use the pan button (4th button in the toolbar at the top) on a mac and interact with the timeline space by clicking/dragging it to generate the timeline 
 4. Save the cuesheet by going
 
 
